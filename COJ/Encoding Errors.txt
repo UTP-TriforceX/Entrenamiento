@@ -1,0 +1,5 @@
+﻿Due to the limitations of the supported zip file format, the following file(s) had to be renamed.
+
+Original File Name  ->  New File Name
+2699 - Measuring December´s Rain.cpp -> File1.cpp
+2746 - Flea´s Festival of Reading.java -> File2.java
