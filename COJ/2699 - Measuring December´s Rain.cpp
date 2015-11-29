@@ -1,26 +1,18 @@
-//2699 - Measuring December´s Rain
-//http://coj.uci.cu/24h/problem.xhtml?abb=2699
-
 #include <bits/stdc++.h>
 
 using namespace std;
 
 int main(){
-	int n; 
-	double total, promedio=0.0;
-
+	vector <double> num(30);
+	double acum=0,dec=0,total=0;
 	for(int i=0; i<30; i++){
-		scanf("%d", &n);
-
-		promedio += n;
+		cin>>num[i];
 	}
-
-	n = promedio;
-	promedio = n/30.0;
-
-	total = (double)n + promedio;
-
-	printf("%.3f", total);
-
+	for(int i=0; i<30; i++){
+		acum+=num[i];
+	}
+	dec=acum/30;
+	total=(acum+dec);
+	printf("%.3lf\n",total);
 	return 0;
 }
