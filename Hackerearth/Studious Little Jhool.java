@@ -1,8 +1,8 @@
-import java.io.*;
 //Studious Little Jhool!
 //https://www.hackerearth.com/problem/algorithm/studious-little-jhool/description/
 
 import java.util.*;
+import java.io.*;
 
 public class Main {
     public static void main(String [] args){
